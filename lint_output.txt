@@ -1,0 +1,224 @@
+﻿
+> frontend@0.1.0 lint
+> eslint
+
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\app\analytics\page.tsx
+  6:8   warning  'AnimatedNumber' is defined but never used  @typescript-eslint/no-unused-vars
+  7:33  warning  'TrendingUp' is defined but never used      @typescript-eslint/no-unused-vars
+  7:45  warning  'Clock' is defined but never used           @typescript-eslint/no-unused-vars
+  7:59  warning  'DollarSign' is defined but never used      @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\app\compare\page.tsx
+  3:17  warning  'useState' is defined but never used    @typescript-eslint/no-unused-vars
+  5:19  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\app\portfolio\page.tsx
+  3:17  warning  'useMemo' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\app\scanner\page.tsx
+    6:26  warning  'Filter' is defined but never used                 @typescript-eslint/no-unused-vars
+    6:34  warning  'Bell' is defined but never used                   @typescript-eslint/no-unused-vars
+   56:13  error    'result' is never reassigned. Use 'const' instead  prefer-const
+  242:74  error    Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  280:59  warning  'i' is defined but never used                      @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\app\settings\page.tsx
+  8:5  warning  'Zap' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\app\simulator\page.tsx
+  20:21  warning  'setAvgLoss' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\ArbOpportunity.tsx
+  1:10  warning  'cn' is defined but never used    @typescript-eslint/no-unused-vars
+  2:30  warning  'Play' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\CandlestickChart.tsx
+   4:45  warning  'ISeriesApi' is defined but never used    @typescript-eslint/no-unused-vars
+  64:28  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\ConceptCard.tsx
+  4:16  warning  'HelpCircle' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\CorrelationHeatmap.tsx
+  3:10  warning  'useMemo' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\DashboardClient.tsx
+    9:8   warning  'ParticleBackground' is defined but never used         @typescript-eslint/no-unused-vars
+   12:29  warning  'Zap' is defined but never used                        @typescript-eslint/no-unused-vars
+   15:44  error    Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+   16:48  error    Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+   17:12  warning  'risk' is assigned a value but never used              @typescript-eslint/no-unused-vars
+   17:38  error    Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+   19:12  warning  'showParticles' is assigned a value but never used     @typescript-eslint/no-unused-vars
+   19:27  warning  'setShowParticles' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  149:76  error    Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  150:75  error    Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\Header.tsx
+   3:14  warning  'formatCurrency' is defined but never used  @typescript-eslint/no-unused-vars
+  41:27  warning  'Zap' is defined but never used             @typescript-eslint/no-unused-vars
+  41:32  warning  'ShieldAlert' is defined but never used     @typescript-eslint/no-unused-vars
+  41:92  warning  'Wifi' is defined but never used            @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\LiveBlotter.tsx
+   4:10  warning  'Wifi' is defined but never used                @typescript-eslint/no-unused-vars
+   4:26  warning  'ArrowUp' is defined but never used             @typescript-eslint/no-unused-vars
+   4:35  warning  'ArrowDown' is defined but never used           @typescript-eslint/no-unused-vars
+  29:11  warning  'scrollRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\MarketCard.tsx
+  1:10  warning  'cn' is defined but never used              @typescript-eslint/no-unused-vars
+  1:14  warning  'formatCurrency' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\MonteCarloChart.tsx
+    4:34  warning  'Settings' is defined but never used      @typescript-eslint/no-unused-vars
+  136:15  warning  'p5' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  137:15  warning  'p95' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\ParticleBackground.tsx
+  129:59  error  Error: Cannot access variable before it is declared
+
+`animate` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\ParticleBackground.tsx:129:59
+  127 |         });
+  128 |
+> 129 |         animationFrameRef.current = requestAnimationFrame(animate);
+      |                                                           ^^^^^^^ `animate` accessed before it is declared
+  130 |     }, [connectionDistance, mouseRadius]);
+  131 |
+  132 |     useEffect(() => {
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\ParticleBackground.tsx:47:5
+   45 |     }, [particleCount]);
+   46 |
+>  47 |     const animate = useCallback(() => {
+      |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  48 |         const canvas = canvasRef.current;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  49 |         if (!canvas) return;
+      ΓÇª
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 129 |         animationFrameRef.current = requestAnimationFrame(animate);
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 130 |     }, [connectionDistance, mouseRadius]);
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ `animate` is declared here
+  131 |
+  132 |     useEffect(() => {
+  133 |         const canvas = canvasRef.current;  react-hooks/immutability
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\PnLChart.tsx
+  3:10  warning  'LineChart' is defined but never used  @typescript-eslint/no-unused-vars
+  3:21  warning  'Line' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\PortfolioTreemap.tsx
+   20:11  error    Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+   27:14  error    Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+   33:13  warning  'root' is assigned a value but never used     @typescript-eslint/no-unused-vars
+   33:19  warning  'depth' is assigned a value but never used    @typescript-eslint/no-unused-vars
+   33:47  warning  'index' is assigned a value but never used    @typescript-eslint/no-unused-vars
+   33:54  warning  'payload' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   33:63  warning  'colors' is assigned a value but never used   @typescript-eslint/no-unused-vars
+   33:71  warning  'rank' is assigned a value but never used     @typescript-eslint/no-unused-vars
+   82:75  error    Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+  108:39  error    Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+  111:55  error    Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\QuickTradeModal.tsx
+   4:52  warning  'Zap' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+   5:8   warning  'AnimatedNumber' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+  28:13  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\QuickTradeModal.tsx:28:13
+  26 |     useEffect(() => {
+  27 |         if (market) {
+> 28 |             setProbability(Math.round(market.yesPrice * 100));
+     |             ^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  29 |         }
+  30 |     }, [market]);
+  31 |  react-hooks/set-state-in-effect
+  49:11  warning  'theta' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\RiskPanel.tsx
+  1:23  warning  'AlertTriangle' is defined but never used   @typescript-eslint/no-unused-vars
+  2:14  warning  'formatCurrency' is defined but never used  @typescript-eslint/no-unused-vars
+  2:30  warning  'formatPercent' is defined but never used   @typescript-eslint/no-unused-vars
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\VolatilitySurface3D.tsx
+   4:18  warning  'useFrame' is defined but never used               @typescript-eslint/no-unused-vars
+   4:28  warning  'useThree' is defined but never used               @typescript-eslint/no-unused-vars
+  41:13  error    'minVol' is never reassigned. Use 'const' instead  prefer-const
+  42:13  error    'maxVol' is never reassigned. Use 'const' instead  prefer-const
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\WaterfallChart.tsx
+  26:17  error  Error: Cannot reassign variable after render completes
+
+Reassigning `current` after render has completed can cause inconsistent behavior on subsequent renders. Consider using state instead.
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\components\WaterfallChart.tsx:26:17
+  24 |             const start = current;
+  25 |             if (item.type !== 'total' && item.type !== 'start') {
+> 26 |                 current += item.value;
+     |                 ^^^^^^^ Cannot reassign `current` after render completes
+  27 |             } else if (item.type === 'start') {
+  28 |                 current = item.value;
+  29 |             }  react-hooks/immutability
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\lib\useWebSocketPrices.ts
+  101:25  error  Error: Cannot access variable before it is declared
+
+`connect` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\lib\useWebSocketPrices.ts:101:25
+   99 |                 if (reconnectInterval > 0) {
+  100 |                     reconnectTimeoutRef.current = setTimeout(() => {
+> 101 |                         connect();
+      |                         ^^^^^^^ `connect` accessed before it is declared
+  102 |                     }, reconnectInterval);
+  103 |                 }
+  104 |             };
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\lib\useWebSocketPrices.ts:48:5
+   46 |     }, [onStatusChange]);
+   47 |
+>  48 |     const connect = useCallback(() => {
+      |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  49 |         if (wsRef.current?.readyState === WebSocket.OPEN) {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  50 |             return;
+      ΓÇª
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |         }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |     }, [url, reconnectInterval, updateStatus, onMessage]);
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ `connect` is declared here
+  112 |
+  113 |     const disconnect = useCallback(() => {
+  114 |         if (reconnectTimeoutRef.current) {  react-hooks/immutability
+  190:9   error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\kietvph\OneDrive - Vietcap Securities\Desktop\Dump\GapSnap\frontend\src\lib\useWebSocketPrices.ts:190:9
+  188 |             });
+  189 |         });
+> 190 |         setPrices(initial);
+      |         ^^^^^^^^^ Avoid calling setState() directly within an effect
+  191 |
+  192 |         // Simulate price updates
+  193 |         const interval = setInterval(() => {                                                                                                                                                                                                                                                                                                                                                                                                                                                     react-hooks/set-state-in-effect
+
+Γ£û 71 problems (20 errors, 51 warnings)
+  3 errors and 0 warnings potentially fixable with the `--fix` option.
+
